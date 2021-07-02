@@ -1,0 +1,3 @@
+[submodule "dlss"]
+	path = dlss
+	url = https://github.com/BuyMyMojo/dlss-versions
