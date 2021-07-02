@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height">
+    <meta name="description" content="BuyMyMojo's personal website">
+    <meta name="author" content="BuyMyMojo">
+    <meta name="keywords" content="BuyMyMojo, mojo, home, homepage">
+    <title>BuyMyMojo</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css">
+    <link rel="stylesheet" href="./node_modules/hint.css/hint.min.css">
+    <link rel="stylesheet" href="./bmm.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Include quicklink from dist -->
+    <script src="./node_modules/quicklink/dist/quicklink.umd.js"></script>
+    <!-- Initialize (you can do this whenever you want) -->
+    <script>
+        window.addEventListener('load', () => {
+          quicklink.listen();
+        });
+    </script>
+
+    <!-- Main body of page -->
+    <div class="nes-container is-dark with-title full-page">
+        <p class="title"><a href="/"> home </a> - <a href="/about.html"> about </a> - <a href="/dlss.html"> DLSS </a></p>
+        <h1 style="text-align: center;">BuyMyMojo</h1>
+        <div class="nes-container is-rounded is-dark center-text">
+            <h4>Yes another redesign...</h2><br>
+            <p>Yeah I designed to redesign my website again to it's old style.<br>
+                I wanted more controll on images so I can start using Jpeg XL<br>
+                before it's supported in website builder software.
+            </p><br>
+            <p>example:</p>
+            <div class="hint--info" aria-label="Cyberpunk 2077 screenshot">
+            <picture>
+                <source type="image/jxl" srcset="./images/jpegXL/format_example.jxl" style="width: 30%;">
+                <source type="image/webp2" srcset="./images/webp2/format_example.wp2" style="width: 30%;">
+                <source type="image/webp" srcset="./images/webp/format_example.webp" style="width: 30%;">
+                <img src="./images/png/format_example.png" alt="Cyberpunk 2077 screenshot" style="width: 30%;">
+            </picture><br>
+            </div>
+            <br>
+            <p>
+                The image above is most likely displaying in .webp format but if the browser<br>
+                doesnt support that(like old browsers) it will show a .png image and if your<br>
+                browser supports jpegXL then it will show a .jxl image.
+            </p><br>
+            <p>
+                Pretty simple reason but it's the sort of control I want.
+            </p><br>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height">
+    <meta name="description" content="">
+    <meta name="author" content="BuyMyMojo">
+    <meta name="keywords" content="BuyMyMojo, mojo, ">
+    <title>DLSS repo</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css">
+    <link rel="stylesheet" href="./node_modules/hint.css/hint.min.css">
+    <link rel="stylesheet" href="./bmm.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Include quicklink from dist -->
+    <script src="./node_modules/quicklink/dist/quicklink.umd.js"></script>
+    <!-- Initialize (you can do this whenever you want) -->
+    <script>
+        window.addEventListener('load', () => {
+          quicklink.listen();
+        });
+    </script>
+
+    <!-- Main body of page -->
+    <div class="nes-container is-dark with-title full-page">
+        <p class="title"><a href="/"> home </a> - <a href="/about.html"> about </a> - <a href="/dlss.html"> DLSS </a></p>
+        <div class="nes-container is-rounded is-dark center-text">
+            <h1>DLSS</h1>
+            <picture>
+                <source type="image/jxl" srcset="./images/jpegXL/nvidia-rtx.jxl" style="width: 15%;">
+                <source type="image/webp" srcset="./images/webp/nvidia-rtx.webp" style="width: 15%;">
+                <img src="./images/png/nvidia-rtx.png" alt="Cyberpunk 2077 screenshot" style="width: 15%;">
+            </picture>
+            <br>
+            <p>
+                There are a lot of versions of dlss out in the wild.<br>
+                I'm going to compile as many versions of dlss here as I can,<br>
+                it's fun to compare them and see a timeline of the evolution of this tech.
+            </p><br>
+            <p>
+                Bellow is a bunch of buttons that will let you download the nvngx_dlss.dll file<br>
+                for each version of dlss I have. To use them just replace the dll file in your game<br>
+                files with the same name and it will work right away.
+            </p><br>
+            <div class="nes-container is-rounded is-dark center-text">
+                <h2>Downloads:</h2><br>
+            <table style="width:100%">
+                <tr>
+                    <th><form method="get" action="./dlss/2.2.9.0/nvngx_dlss.dll"><button type="submit" class="nes-btn is-success">2.2.9.0 (Latest)</button></form></th>
+                    <th><form method="get" action="./dlss/2.2.6.0/nvngx_dlss.dll"><button type="submit" class="nes-btn is-primary">2.2.6.0</button></form></th>
+                    <th><form method="get" action="./dlss/2.1.66.0/nvngx_dlss.dll"><button type="submit" class="nes-btn is-primary">2.1.66.0</button></form></th>
+                </tr>
+                <tr>
+                    <th><h4>UE4 plugin</h4></th>
+                    <th><h4>R6S</h4></th>
+                    <th><h4>Doom Eternal</h4></th>
+                </tr>
+                <tr>
+                    <th><form method="get" action="./dlss/2.1.63.0/nvngx_dlss.dll"><button type="submit" class="nes-btn is-primary">2.1.63.0</button></form></th>
+                    <th><form method="get" action="./dlss/2.1.39.0/nvngx_dlss.dll"><button type="submit" class="nes-btn is-primary">2.1.39.0</button></form></th>
+                    <th><form method="get" action="./dlss/2.1.29.0/nvngx_dlss.dll"><button type="submit" class="nes-btn is-primary">2.1.29.0</button></form></th>
+                </tr>
+                <tr>
+                    <th><h4>No Man's Sky</h4></th>
+                    <th><h4>Cyberpunk/Ghostrunner</h4></th>
+                    <th><h4>3D mark</h4></th>
+                </tr>
+                <tr>
+                    <th><form method="get" action="./dlss/2.1.19.0/nvngx_dlss.dll"><button type="submit" class="nes-btn is-primary">2.1.19.0</button></form></th>
+                    <th><form method="get" action="./dlss/2.1.16.0/nvngx_dlss.dll"><button type="submit" class="nes-btn is-primary">2.1.16.0</button></form></th>
+                    <th><form method="get" action="./dlss/1.0.9.0/nvngx_dlss.dll"><button type="submit" class="nes-btn is-error">1.0.9.0</button></form></th>
+                </tr>
+                <tr>
+                    <th><h4>Death stranding</h4></th>
+                    <th><h4>Minecraft win10</h4></th>
+                    <th><h4>3D mark</h4></th>
+                </tr>
+            </table>
+            
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "buymymojo",
+  "version": "1.0.0",
+  "description": "My Personal Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "BuyMyMojo",
+  "license": "MIT",
+  "dependencies": {
+    "cssgram": "^0.1.3",
+    "github-markdown-css": "^4.0.0",
+    "hint.css": "^2.6.0",
+    "nes.css": "^2.3.0",
+    "quicklink": "^2.2.0",
+    "video.js": "^7.13.3"
+  }
+}
