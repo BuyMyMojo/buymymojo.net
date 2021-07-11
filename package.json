@@ -18,5 +18,8 @@
     "nes.css": "^2.3.0",
     "quicklink": "^2.2.0",
     "video.js": "^7.13.3"
+  },
+  "devDependencies": {
+    "critical": "^4.0.0"
   }
 }

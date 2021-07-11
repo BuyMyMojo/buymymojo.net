@@ -13,9 +13,15 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
-    <link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css">
-    <link rel="stylesheet" href="./node_modules/hint.css/hint.min.css">
-    <link rel="stylesheet" href="./bmm.css">
+    <!-- <link rel="stylesheet" media="screen" href="./node_modules/nes.css/css/nes.min.css"> -->
+    <link rel="preload" href="./node_modules/nes.css/css/nes.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css"></noscript>
+    <!-- <link rel="stylesheet" media="screen" href="./node_modules/hint.css/hint.min.css"> -->
+    <link rel="preload" href="./node_modules/hint.css/hint.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./node_modules/hint.css/hint.min.css"></noscript>
+    
+    <link rel="stylesheet" media="screen" href="./bmm.min.css">
+    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,9 +29,9 @@
 </head>
 <body>
     <!-- Include quicklink from dist -->
-    <script src="./node_modules/quicklink/dist/quicklink.umd.js"></script>
+    <script defer src="./node_modules/quicklink/dist/quicklink.umd.js"></script>
     <!-- Initialize (you can do this whenever you want) -->
-    <script>
+    <script defer>
         window.addEventListener('load', () => {
           quicklink.listen();
         });
