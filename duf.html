@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- main meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height">
+    <meta name="description" content="">
+    <meta name="author" content="BuyMyMojo">
+    <meta name="keywords" content="BuyMyMojo, mojo, ">
+    <title>Animated SVGs</title>
+
+    <!-- Fav icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- <link rel="stylesheet" media="screen" href="./node_modules/nes.css/css/nes.min.css"> -->
+    <link rel="preload" href="./node_modules/nes.css/css/nes.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css"></noscript>
+    <!-- <link rel="stylesheet" media="screen" href="./node_modules/hint.css/hint.min.css"> -->
+    <link rel="preload" href="./node_modules/hint.css/hint.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./node_modules/hint.css/hint.min.css"></noscript>
+
+    <!-- <link rel="stylesheet" href="./bmm.min.css"> -->
+    <link rel="preload" href="./bmm.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./bmm.css"></noscript>
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <!-- twitter cards -->
+    <meta name="twitter:card"              content="summary" />
+    <meta name="twitter:site"              content="@OwenQuinlan7" />
+    <meta name="twitter:creator"           content="@OwenQuinlan7" />
+    <meta property="og:url"                content="https://buymymojo.net/" />
+    <meta property="og:title"              content="BuyMyMojo personal website" />
+    <meta property="og:description"        content="Just my own personal website I guess." />
+    <meta property="og:image"              content="https://buymymojo.net/android-chrome-512x512.png" />
+
+    <!-- Open Graph Markup -->
+    <meta property="og:url"                content="https://buymymojo.net/" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="BuyMyMojo personal website" />
+    <meta property="og:description"        content="Just my own personal website I guess." />
+    <meta property="og:image"              content="https://buymymojo.net/android-chrome-512x512.png" />
+</head>
+<body style="background-color: #212529;">
+    <!-- Include quicklink from dist -->
+    <script defer src="./node_modules/quicklink/dist/quicklink.umd.js"></script>
+    <!-- Initialize (you can do this whenever you want) -->
+    <script defer>
+        window.addEventListener('load', () => {
+          quicklink.listen();
+        });
+    </script>
+
+    <!-- Main body of page -->
+    <div class="nes-container is-dark with-title full-page">
+        <div class="nes-container is-rounded is-dark center-text">
+            <h1>Animated SVG files</h1>
+            <sub>Turns out you can have animated svg files</sub>
+        </div>
+        <div class="nes-container is-rounded is-dark center-text">
+            <img loading="lazy" src="./images/svg/duf.svg">
+        </div>
+    </div>
+</body>
+</html>
