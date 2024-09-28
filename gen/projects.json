@@ -1,0 +1,54 @@
+[
+    {
+        "name": "📍<i class=\"featured\">pinned project</i> <br/> Open FBT",
+        "descr": [
+            "Open sourced version of a large scale discord bot for user managment.",
+            "Built in Rust and uses the Redis database to store user data.",
+            "In over 400 servers at time of writing(september 2024)",
+            "Origionally written in Python then converted to Rust to improve ease of deployment and improve performance significantly."
+        ],
+        "extra": [
+            "<a href=\"https://github.com/BuyMyMojo/open-fbt\">View OpenFBT on GitHub.</a>",
+            "<sub>Made in tandum with <a href=\"https://github.com/BuyMyMojo/discord-chat-parser\">discord chat partser</a> written in python and then Go for user moderation.</sub>"
+        ]
+    },
+    {
+        "name": "Mojo Kitchen Chaos - An overcooked-like game made in Unity following an online course",
+        "descr": [
+            "Made over the course of a week following a course by <a href=\"https://www.youtube.com/watch?v=AmGSEH7QcDg\">Code Monkey</a>."
+        ],
+        "extra": [
+            "<a href=\"https://github.com/BuyMyMojo/mojo-kitchen-chaos\">GitHub Repo</a>",
+            "<a href=\"https://buymymojo.itch.io/mojos-kitchen-chaos\">Itch.io page</a>"
+        ]
+    },
+    {
+        "name": "RedisFS - A pointless file storage solution written in Rust",
+        "descr": [
+            "Sores files up to 500mb in a Redis database."
+        ],
+        "extra": [
+            "<a href=\"https://github.com/BuyMyMojo/RedisFS\">GitHub Repo</a>"
+        ]
+    },
+    {
+        "name": "Video FPS overlay",
+        "descr": [
+            "Origionally made to take FPS data from a csv file generated with <a href=\"https://www.nvidia.com/en-au/geforce/technologies/frameview/\">Nvidia FrameView</a> and display it in a <a href=\"https://youtu.be/8UTU03TooUI?t=334\">Digital Foundry</a> like graph.",
+            "Never reached a fully functioning state but it was a fun old project.",
+            "Written in Python"
+        ],
+        "extra": [
+            "<a href=\"https://github.com/BuyMyMojo/Video-FPS-overlay\">GitHub Repo</a>"
+        ]
+    },
+    {
+        "name": "This website!",
+        "descr": [
+            "Made with Braden Everson's <a href=\"https://github.com/bradeneverson/sitesmith\">SiteSmith</a> tool."
+        ],
+        "extra": [
+            "<a href=\"https://github.com/BuyMyMojo/buymymojo.net\">GitHub Repo</a>"
+        ]
+    }
+]

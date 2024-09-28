@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Jr Software Developer & Server Administrator",
+        "timespan": "2018 - 2022",
+        "location": "Mammoth Esports Australaia",
+        "descr": [
+            "Designed and created a Discord bot for user managment used in over 400 Discord servers managing thousands of users and requests daily.",
+            "Handled the backend of our game server renting system"
+        ],
+        "extra": ["<sub>The company is now defunct but it was a good introduction to an industry I want to work in.</sub>"]
+    },
+    {
+        "name": "Phone Repair Technician",
+        "timespan": "Jan 2024 - Present",
+        "location": "Cohuna Phone Repairs",
+        "descr": [
+            "Experince in data recovery, repair of phones and computers and general electronics repairs."
+        ],
+        "extra": []
+    }
+]
