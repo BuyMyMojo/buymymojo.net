@@ -1,6 +1,21 @@
 [
     {
-        "name": "📍<i class=\"featured\">pinned project</i> <br/> Open FBT",
+        "name": "📍<i class=\"featured\">pinned project</i> <br/> Soul Abscence",
+        "descr": [
+            "I worked together with a small group to make my first proper game jam game! This was for Godot Wild Jam #80",
+            "Soul Abscence is a resource managment simulation game inpired by 911 operator.",
+            "Adding 113 commits totalling around 12K lines of formatted code(unformatted number is most likely smaller!) I worked on things like level loading, A⭐ path finding, Menus and Options.",
+            "It was made over the course of about 9 days and I'm super happy with the work we've all put in! There is of coure a lot of things I'd do differently if we made the game again but that's just how it is when you make effectively a \"prototype\" game."
+        ],
+        "extra": [
+            "<iframe height=\"167\" frameborder=\"0\" src=\"https://itch.io/embed/3491084\" width=\"552\"><a href=\"https://buymymojo.itch.io/soul-absence\">Soul Abscence by Aria, _Raptor, francmartins, Joys_mi, Bunnieswithknives</a></iframe>",
+            "<a href=\"https://itch.io/jam/godot-wild-jam-80/rate/3491084\">Game jam entry + rating page</a>",
+            "<a href=\"https://itch.io/jam/godot-wild-jam-80\">Godot Wild Jam #80</a>",
+            "<a href=\"https://store.steampowered.com/app/503560/911_Operator/\">Check out 911 Operator on steam!</a>"
+        ]
+    },
+    {
+        "name": "<i class=\"featured\">pinned project</i> <br/> Open FBT",
         "descr": [
             "Open sourced version of a large scale discord bot for user managment.",
             "Built in Rust and uses the Redis database to store user data.",
